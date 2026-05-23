@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://project-billing-agent-api.onrender.com";
 
 function App() {
   const [token, setToken] = useState(localStorage.getItem("token") || "");
