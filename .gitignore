@@ -1,0 +1,10 @@
+venv/
+backend/venv/
+frontend/node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+backend/project_billing.db
+backend/uploads/
+.env
+*.zip
